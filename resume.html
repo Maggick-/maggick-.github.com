@@ -1,0 +1,13 @@
+---
+layout: default
+title: Resume
+---
+
+<ul>
+  {% for post in site.categories.resume %}
+    <li>
+      {{ post.title }}
+      {{ post.startDate }}-{{ post.endDate }}
+    </li>
+  {% endfor %}
+</ul>
