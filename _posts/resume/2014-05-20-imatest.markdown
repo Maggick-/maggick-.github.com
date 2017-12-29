@@ -1,0 +1,15 @@
+---
+layout: post
+company: Lytro
+title:  VFX Software Engineer
+startDate: August 2016
+endDate: On-going
+categories: resume
+---
+
+<ul>
+    <li>Generation of thumbnails for adjusted images</li>
+    <li>Entering and exiting Full Screen mode</li>
+    <li>Working with large sets of keywords in the Keywords HUD</li>
+    <li>Restoring from a vault</li>
+</ul>
