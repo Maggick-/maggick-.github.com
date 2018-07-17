@@ -1,27 +1,10 @@
 ---
 layout: post
-title: Making Rails' Serialize Even Better
-summary: An improved pattern for Rails attribute serializing.
+title: Understanding Unity's First Person Character Controller 
+summary: I wanted to look into Unity's standard assets for character controllers, to see how they work. This post is also just for me to understand the format and play with jekyll.
 ---
 
-Rails has this handy method that allows you store almost any object in the database with ease. Most often I end up using it for storing optional attributes in a hash.
-
-Here is the proper syntax for telling Rails that there is an options attribute that should only store Hash values.
-
-```c++
-#include <iostream>
-
-int main() {
-
-    std::vector<int> v = {1, 2, 3};
-
-    return 0;
-}
-```
-
-<h3>The problem</h3>
-
-The options attribute will start off as nil, and remain nil until you set it to something else. Setting the class_name to Hash only affects what you can write to this attribute.
+<h1>The problem</h1>
 
 ```c#
 using UnityEngine;
